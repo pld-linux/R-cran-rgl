@@ -1,7 +1,7 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	rgl
 Summary:	3D visualization device system (OpenGL)
-Summary(pl.UTF-8):   Sterownik wyświetlania 3D (OpenGL)
+Summary(pl.UTF-8):	Sterownik wyświetlania 3D (OpenGL)
 Name:		R-cran-%{modulename}
 Version:	0.64r13
 Release:	2
