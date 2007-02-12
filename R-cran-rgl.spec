@@ -1,7 +1,7 @@
 %define		fversion	%(echo %{version} |tr r -)
 %define		modulename	rgl
 Summary:	3D visualization device system (OpenGL)
-Summary(pl):	Sterownik wy∂wietlania 3D (OpenGL)
+Summary(pl.UTF-8):   Sterownik wy≈õwietlania 3D (OpenGL)
 Name:		R-cran-%{modulename}
 Version:	0.64r13
 Release:	2
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 3D visualization device (OpenGL).
 
-%description -l pl
-Sterownik wy∂wietlania 3D (OpenGL).
+%description -l pl.UTF-8
+Sterownik wy≈õwietlania 3D (OpenGL).
 
 %prep
 %setup -q -c
