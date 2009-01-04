@@ -10,11 +10,11 @@ Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
 # Source0-md5:	bbbae92de0e3127cec4e8fd9d794d096
 URL:		http://wsopuppenkiste.wiso.uni-goettingen.de/~dadler/rgl
-BuildRequires:	R-base >= 2.4.0
-BuildRequires:	XFree86-OpenGL-devel
+BuildRequires:	R >= 2.8.1
+BuildRequires:	OpenGL-devel
 BuildRequires:	libpng-devel
 BuildRequires:	libstdc++-devel
-Requires(post,postun):	R-base >= 2.4.0
+Requires(post,postun):	R >= 2.8.1
 Requires(post,postun):	perl-base
 Requires(post,postun):	textutils
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
