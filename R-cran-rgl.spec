@@ -3,12 +3,12 @@
 Summary:	3D visualization device system (OpenGL)
 Summary(pl.UTF-8):	Sterownik wyświetlania 3D (OpenGL)
 Name:		R-cran-%{modulename}
-Version:	0.92.892
+Version:	0.93.991
 Release:	1
 License:	GPL
 Group:		Applications/Math
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
-# Source0-md5:	84f00f465dfedfaf8cb0e3cc499ee660
+# Source0-md5:	9738b4d0dc4433d76cc7a9f5d14049d3
 URL:		http://rgl.neoscientists.org/
 BuildRequires:	R >= 2.8.1
 BuildRequires:	OpenGL-devel
